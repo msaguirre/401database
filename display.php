@@ -37,9 +37,9 @@
 
 	  /* CHANGE THESE SETTINGS FOR YOUR OWN DATABASE */
       $obj->host = 'localhost';
-      $obj->username = 'username';
-      $obj->password = 'db_password';
-      $obj->table = 'database_name';
+      $obj->username  'root';
+      $obj->password = 'cstest';
+      $obj->table = 'wam';
       $obj->connect();
     
       if ( $_POST )
